@@ -1,0 +1,71 @@
+/* Main-Header */
+.main-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    position: sticky;
+}
+/* Logo */
+.logo-icon {
+    border: 1px solid;
+    height: 50px;
+    width: 50px;
+    background-size: cover;
+    background-image: url(../assets/logibit.jpg);
+    border-radius: 50%;
+}
+
+/* Navigasi */
+.navi-content {
+    display: flex;
+    cursor: pointer;
+}
+nav >a {
+    border: 1px solid;
+    padding: 5px 10px;
+    font-family:Georgia, 'Times New Roman', Times, serif ;
+    color: black;
+}
+.nav-border-left {
+    border-radius:12px 0 0 12px;
+}
+.nav-border-right {
+    border-radius:0 12px 12px 0;
+}
+
+/* Banner Image */
+.banner-image {
+    border: 1px solid;
+    height: 450px;
+    display: block;
+}
+
+/* Our Profile */
+.img-posisi {
+    display: flex;
+    justify-content: space-around;
+    margin-top: 50px;
+}
+.img1 {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.img2 {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.img3 {
+    border: 1px solid;
+    height: 100px;
+    width: 100px;
+    border-radius: 50%;
+}
+.content {
+    height: 500px;
+    border: 1px solid;
+}
+
