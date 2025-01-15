@@ -34,38 +34,80 @@ nav >a {
 }
 
 /* Banner Image */
+.body-content {
+    background-image: linear-gradient(to bottom,  #98FF98, #FFFACD);
+}
 .banner-image {
-    border: 1px solid;
     height: 450px;
     display: block;
 }
 
+
 /* Our Profile */
 .img-posisi {
     display: flex;
-    justify-content: space-around;
+    text-align: center;
     margin-top: 50px;
+    justify-content: space-around;
 }
-.img1 {
+.our-profile1{
+    background: linear-gradient(to top, #FF6F91, #FFC1A6);
+    height: 200px;
+}
+figcaption{
+    position: absolute;
+    bottom: 10px;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: rgba(0, 0, 0, 0.5);
+    color: white;
+    padding: 5px 10px;
+    font-size: 16px;
+    border-radius: 5px;
+}
+.image-item {
+    width: 300px;
+    height: 200px;
+    background-size: cover;
+    background-position: center;
+    border-radius: 8px;
+    position: relative;
+}
+
+/* Gambar Makanan */
+#img1 {
     border: 1px solid;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    background: url(../assets/brownies.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.img2 {
+#img2 {
     border: 1px solid;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    background: url(../assets/milkshake.png);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
-.img3 {
+#img3 {
     border: 1px solid;
     height: 100px;
     width: 100px;
     border-radius: 50%;
+    background: url(../assets/somtam.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
 }
 .content {
     height: 500px;
     border: 1px solid;
 }
 
+@media only screen and (min-width: 600px) {
+.navi-content {
+    flex-direction: column;
+}
