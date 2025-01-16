@@ -107,7 +107,39 @@ figcaption{
     border: 1px solid;
 }
 
-@media only screen and (min-width: 600px) {
-.navi-content {
-    flex-direction: column;
+
+
+/* Message Form */
+body {
+    font-family: Arial, sans-serif;
+    margin: 20px;
 }
+.container {
+    display: flex;
+    gap: 20px;
+}
+.form-container, .output-container {
+    border: 1px solid #000;
+    padding: 15px;
+    width: 100%;
+    max-width: 400px;
+}
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+input, textarea {
+    width: 100%;
+    margin-bottom: 15px;
+    padding: 8px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+textarea {
+    resize: vertical;
+}
+.output-container {
+    white-space: pre-wrap;
+    background: #f9f9f9;
+}
+

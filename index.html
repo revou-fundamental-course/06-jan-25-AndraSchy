@@ -6,7 +6,7 @@
     <link rel="stylesheet" href="css\style.css">
     <title>D-Rabit</title>
 </head>
-<body>
+<body style="background-color: grey;">
     <!-- Logo -->
     <header class="main-header">
         <div class="logo-icon"></div>
@@ -61,14 +61,32 @@
                 <h1>Message Us</h1>
             </header>
 
-            <div class=""></div>
+            <div class="container">
+                <div class="form-container">
+                    <form id="messageForm">
+                        <label for="name">Nama:</label>
+                        <input type="text" id="name" name="name" placeholder="Nama" required>
+        
+                        <label for="dob">Tanggal Lahir:</label>
+                        <input type="date" id="dob" name="dob" required>
+        
+                        <label>Jenis Kelamin:</label>
+                        <input type="radio" id="male" name="gender" value="Laki-Laki" required>
+                        <label for="male">Laki-Laki</label>
+                        <input type="radio" id="female" name="gender" value="Perempuan">
+                        <label for="female">Perempuan</label>
+        
+                        <label for="message">Pesan:</label>
+                        <textarea id="message" name="message" placeholder="Pesan" rows="4" required></textarea>
+        
+                        <button type="button" onclick="submitForm()">Submit</button>
+                    </form>
+                </div>
+
+                <div class="output-container" id="output">
+                    <strong>Current time:</strong> <span id="currentTime"></span>
+                </div>
             <div>
-                <form action="name">Name:</form>
-                <input type="text" name="name-input" placeholder="Enter your name" required >
-            </div>
-                
-                <button type="button" id="tap">Submit</button>
-        </section>
 
     </main>
 
